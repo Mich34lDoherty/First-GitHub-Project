@@ -69,12 +69,49 @@
 
     <br>
     <hr>
-    <br>
+    <br>    
     <!-- Forms -->
 
     <form action="process.php" method="POST">
-        <label> First Name </label>
-        <input type="text" name="first-name">
+        <div>
+            <label> First Name </label>
+            <input type="text" name="first-name">
+        </div>
+        <br>
+        <div>
+            <label> Last Name </label>
+            <input type="text" name="last-name">
+        </div>
+        <br>
+        <div>
+            <label>Email </label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <br>
+        <div>   
+            <label>Gender</label>
+            <select name="gender">
+            <option value="male">male</option>  
+            <option value="female">female</option>
+            <option value="other">other</option>  
+            </select>
+        </div>
+        <br>
+            <div>
+                <label>Age</label>
+            <input type="number" name="age" value="31">
+        </div>
+        <br>
+            <div>
+            <label>Birthday</label>
+            <input type="date" name="birthday">
+            </div>
+            
 
     </form>
 </body>
